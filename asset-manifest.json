@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mocking-datos/static/css/main.c4ee0801.chunk.css",
+    "main.js": "/mocking-datos/static/js/main.57616bcc.chunk.js",
+    "main.js.map": "/mocking-datos/static/js/main.57616bcc.chunk.js.map",
+    "runtime-main.js": "/mocking-datos/static/js/runtime-main.6c63d2e4.js",
+    "runtime-main.js.map": "/mocking-datos/static/js/runtime-main.6c63d2e4.js.map",
+    "static/js/2.f0e1c18d.chunk.js": "/mocking-datos/static/js/2.f0e1c18d.chunk.js",
+    "static/js/2.f0e1c18d.chunk.js.map": "/mocking-datos/static/js/2.f0e1c18d.chunk.js.map",
+    "static/js/3.fed40b53.chunk.js": "/mocking-datos/static/js/3.fed40b53.chunk.js",
+    "static/js/3.fed40b53.chunk.js.map": "/mocking-datos/static/js/3.fed40b53.chunk.js.map",
+    "index.html": "/mocking-datos/index.html",
+    "static/css/main.c4ee0801.chunk.css.map": "/mocking-datos/static/css/main.c4ee0801.chunk.css.map",
+    "static/js/2.f0e1c18d.chunk.js.LICENSE.txt": "/mocking-datos/static/js/2.f0e1c18d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c63d2e4.js",
+    "static/js/2.f0e1c18d.chunk.js",
+    "static/css/main.c4ee0801.chunk.css",
+    "static/js/main.57616bcc.chunk.js"
+  ]
+}
