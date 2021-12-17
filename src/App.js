@@ -2,6 +2,8 @@ import React from "react";
 import { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Table } from "reactstrap";
 
 function App() {
   const [data, setData] = useState([]);
@@ -12,22 +14,28 @@ function App() {
   }, []);
 
   return (
-    <table>
-      <tr>
-        <th>Nombre</th>
-        <th>Email</th>
-        <th>Username</th>
-      </tr>
-      {data.map((user) => {
-        return (
-          <tr key={user.id}>
-            <td>{user.fullName}</td>
-            <td>{user.email}</td>
-            <td>{user.username}</td>
-          </tr>
-        );
-      })}
-    </table>
+    <Table striped responsive>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        {data.map((user) => {
+          return (
+            <tr>
+              <th scope="row">{user.id}</th>
+              <td>{user.fullName}</td>
+              <td>{user.email}</td>
+              <td>{user.username}</td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </Table>
   );
 }
 
